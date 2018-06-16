@@ -1,14 +1,16 @@
 {
-	"source" : "extend",
-	"version" : "1.0",
-	"embed" : true,
-	"controllers" : {
-		"AverageReadingTime" : "AverageReadingTime.php"
+	"source": "extend",
+	"version": "1.0",
+	"embed": true,
+	"controllers": {
+		"AverageReadingTime": "AverageReadingTime.php"
 	},
-	"main_class" : "AverageReadingTime",
-	"custom_acl" : ["average_reading_time"],
-	"admin_permission" : "average_reading_time",
-	"controller_function_permissions" : {
-	"AverageReadingTime::saveSettingsPost" : "average_reading_time"
+	"main_class": "AverageReadingTime",
+	"custom_acl": [
+		"average_reading_time"
+	],
+	"admin_permission": "average_reading_time",
+	"controller_function_permissions": {
+		"AverageReadingTime::saveSettingsPost": "average_reading_time"
 	}
 }
