@@ -3,9 +3,9 @@
 class AverageReadingTime extends MainClass
 {
 
-    public const MODULE_NAME = "average_reading_time";
+    const MODULE_NAME = "average_reading_time";
 
-    public const AVERAGE_READING_SPEED = 300;
+    const AVERAGE_READING_SPEED = 300;
 
     public function render()
     {
