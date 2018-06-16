@@ -1,0 +1,7 @@
+{
+	"id": "average_reading_time",
+	"version": "1.0",
+	"description": "Shows average reading time for an article",
+	"categories": [],
+	"compatible_from": "2018.3"
+}
