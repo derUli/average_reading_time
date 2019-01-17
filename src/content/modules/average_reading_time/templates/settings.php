@@ -18,6 +18,6 @@ if (Request::getVar("save")) {
 	<small><?php translate("average_reading_speed_help")?></small>
 </p>
 <p>
-	<button type="submit" class="btn btn-primary"><?php translate("save");?></button>
+	<button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> <?php translate("save");?></button>
 </p>
 <?php echo ModuleHelper::endForm();?>
